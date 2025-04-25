@@ -4,7 +4,7 @@ import torch
 from mapping_function import Fix_MLP
 from pymilvus import model
 from index_builder.faiss_hnsw.module import FaissHNSW
-from ../HVMap import module.py
+from ../HVMap import module
 
 model_from = "multi-qa-mpnet-base-cos-v1"
 model_to = "multi-qa-distilbert-cos-v1"
